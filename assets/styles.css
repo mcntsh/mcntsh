@@ -1,0 +1,100 @@
+:root {
+  --color-background-main: lemonchiffon;
+  --color-background-action: bisque;
+  --color-text-main: dimgray;
+  --color-text-heading: black;
+  --color-text-action: crimson;
+
+  --font-size-1: 1.70rem;
+  --font-size-2: .9rem;
+
+  --line-height-1: 1;
+  --line-height-2: 1.45;
+
+  --max-width-1: 30rem;
+
+  --breakpoint-1: (only screen and (min-width: 30rem));
+
+  --spacing-1: .5rem;
+  --spacing-2: 1rem;
+  --spacing-3: 1.5rem;
+}
+
+@media only screen and (min-width: 30rem) {
+  :root {
+    --font-size-1: 2.25rem;
+    --font-size-2: 1rem;
+  }
+}
+
+html {
+  background-color: var(--color-background-main);
+  color: var(--color-text-main);
+}
+
+body {
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: row;
+}
+
+main {
+  max-width: var(--max-width-1);
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: var(--spacing-3);
+  padding-bottom: var(--spacing-3);
+  padding-left: var(--spacing-3);
+  padding-right: var(--spacing-3);
+  width: 100%;
+  display: inline-flex;
+  align-self: center;
+  flex-direction: column;
+  font-size: var(--font-size-2);
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 700;
+  color: var(--color-text-heading);
+}
+
+h1 {
+  font-size: var(--font-size-1);
+  line-height: var(--line-height-1);
+}
+
+p {
+  font-weight: 500;
+  line-height: var(--line-height-2);
+  margin-top: var(--spacing-2);
+  margin-bottom: var(--spacing-2);
+}
+
+a {
+  color: var(--color-text-action);
+} a.cta {
+  color: var(--color-text-action);
+  font-weight: 600;
+  background-color: var(--color-background-action);
+  padding: var(--spacing-2);
+  text-decoration: none;
+} a.cta span {
+  text-decoration: underline;
+}
+
+footer {
+  margin-top: var(--spacing-1);
+}
+footer nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: calc(-1 * var(--spacing-1));
+  margin-left: calc(-1 * var(--spacing-1));
+}
+footer nav a {
+  display: block;
+  margin-right: var(--spacing-1);
+  margin-left: var(--spacing-1);
+}
+
