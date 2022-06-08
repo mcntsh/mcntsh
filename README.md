@@ -1,4 +1,5 @@
-# Hi there, I'm Jon. <br/>Currently, I'm working as a Front-End Engineer in Berlin.
+# Hi there, I'm Jon 🙋‍♂️ 
+**Currently, I'm working as a Front-End Engineer in Berlin.**
 
 I build impactful user experiences through digital mediums, and I'm working with
 [ResearchGate](https://www.researchgate.net) to build human-focused products for
