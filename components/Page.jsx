@@ -3,7 +3,7 @@ import withSetClassName from "use-utility-classes/react";
 
 const PageWrapper = withSetClassName((props) => {
   const wrapperClassNames = props.setClassName(
-    "flex min-h screen flex-col min-h-screen box-border",
+    "flex min-h screen flex-col min-h-screen box-border p-8",
     {
       when: { type: "orange" },
       use: "bg-gradient-to-b from-orange-300 to-orange-200",

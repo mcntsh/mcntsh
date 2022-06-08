@@ -2,8 +2,8 @@ import withSetClassName from "use-utility-classes/react";
 
 function Action(props) {
   const actionClassNames = props.setClassName(
-    `text-md tracking-wide font-bold
-    border-2 rounded-full px-5 py-3 transition-colors inline-block text-center
+    `text-sm md:text-base tracking-wide font-bold
+    border-2 rounded-full px-4 py-2 md:px-5 md:py-3 transition-colors inline-block text-center
     inline-block w-auto focus:outline-none focus:ring focus:ring-orange-300`,
     {
       when: { type: "primary" },

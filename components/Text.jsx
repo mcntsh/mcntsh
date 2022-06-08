@@ -10,15 +10,15 @@ function Text(props) {
   const textClassName = props.setClassName(
     {
       when: { type: "paragraph" },
-      use: "text-xl leading-normal antialiased m-0",
+      use: "text-base md:text-xl leading-normal antialiased m-0",
     },
     {
       when: { type: "subheading" },
-      use: "text-3xl font-medium leading-tight antialiased m-0",
+      use: "text-xl md:text-3xl font-medium leading-tight antialiased m-0",
     },
     {
       when: { type: "heading" },
-      use: "text-4xl font-bold leading-tight antialiased m-0",
+      use: "text-2xl md:text-4xl font-bold leading-tight antialiased m-0",
     }
   );
 
