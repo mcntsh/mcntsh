@@ -5,4 +5,4 @@ I build impactful user experiences through digital mediums, and I'm working with
 [ResearchGate](https://www.researchgate.net) to build human-focused products for
 scientists and researchers online.
 
-[**Get in touch**](mailto:jon@mcntsh.com) • [Read more](https://www.linkedin.com/in/jon-mcintosh-475b9423/)
+[[**Get in touch**](mailto:jon@mcntsh.com)] [Read more](https://www.linkedin.com/in/jon-mcintosh-475b9423/)
