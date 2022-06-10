@@ -5,7 +5,8 @@ function Home() {
     <Page
       title="Jon McIntosh"
       description="A Front-End Engineer based out of Berlin."
-      type="orange"
+      type="landing"
+      size="narrow"
     >
       <Text type="heading">Hi there, I'm Jon. </Text>
       <Text type="subheading">
@@ -23,14 +24,13 @@ function Home() {
         to build human-focused products for scientists and researchers online.
       </Text>
       <Space size="large" />
-      <Action href="mailto:jon@mcntsh.com" text="Get in touch" isBlank />
-      &nbsp;
       <Action
         href="https://www.linkedin.com/in/jon-mcintosh-475b9423/"
-        text="Read more"
-        type="secondary"
+        text="Get in touch"
         isBlank
       />
+      &nbsp;
+      <Action href="/thoughts" text="Read more" type="secondary" />
     </Page>
   );
 }

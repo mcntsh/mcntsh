@@ -5,12 +5,16 @@ const PageWrapper = withSetClassName((props) => {
   const wrapperClassNames = props.setClassName(
     "flex min-h screen flex-col min-h-screen box-border p-8",
     {
-      when: { type: "orange" },
+      when: { type: "landing" },
       use: "bg-gradient-to-b from-orange-300 to-orange-200",
     },
     {
-      when: { type: "yellow" },
+      when: { type: "error" },
       use: "bg-gradient-to-b from-yellow-100 to-orange-200",
+    },
+    {
+      when: { type: "default" },
+      use: "bg-yellow-100",
     }
   );
   return <div className={wrapperClassNames}>{props.children}</div>;
@@ -18,7 +22,11 @@ const PageWrapper = withSetClassName((props) => {
 
 const PageBody = withSetClassName((props) => {
   const bodyClassNames = props.setClassName("p4 flex-grow flex flex-col");
-  const bodyInnerClassNames = props.setClassName("p-4 m-auto w-full max-w-xl");
+  const bodyInnerClassNames = props.setClassName(
+    "p-4 m-auto w-full",
+    { when: { size: "default" }, use: "max-w-3xl" },
+    { when: { size: "narrow" }, use: "max-w-xl" }
+  );
 
   return (
     <main className={bodyClassNames}>
@@ -42,5 +50,6 @@ export default function Page(props) {
 }
 
 Page.defaultProps = {
-  type: "orange",
+  type: "default",
+  size: "default",
 };

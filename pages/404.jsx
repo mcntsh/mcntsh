@@ -5,7 +5,8 @@ function Custom404() {
     <Page
       title="Not Found"
       description="This page could not be found."
-      type="yellow"
+      type="error"
+      size="narrow"
     >
       <Text type="heading">404!</Text>
       <Text type="subheading">This page could not be found.</Text>

@@ -6,9 +6,12 @@
     "start": "next start"
   },
   "dependencies": {
+    "gray-matter": "^4.0.3",
     "next": "latest",
     "react": "18.1.0",
     "react-dom": "18.1.0",
+    "react-markdown": "^8.0.3",
+    "react-syntax-highlighter": "^15.5.0",
     "use-utility-classes": "^1.4.2"
   },
   "devDependencies": {
