@@ -4,24 +4,24 @@ function Home() {
   return (
     <Page
       title="Jon McIntosh"
-      description="A Front-End Engineer based out of Berlin."
+      description="A Front-End Engineer based out of NYC."
       type="landing"
       size="narrow"
     >
       <Text type="heading">Hi there, I'm Jon. </Text>
       <Text type="subheading">
-        Currently, I'm working as a Front-End Engineer in Berlin.
+        Currently, I'm working as a Front-End Engineer in NYC.
       </Text>
       <Space size="medium" />
       <Squiggle />
       <Space size="large" />
       <Text type="paragraph">
-        I build impactful user experiences through digital mediums, and I'm
+        I build impactful user experiences through digital mediums. These days I'm
         working with{" "}
-        <Link href="https://www.researchgate.net/" isBlank>
-          ResearchGate
+        <Link href="https://cash.app/" isBlank>
+          Cash App
         </Link>{" "}
-        to build human-focused products for scientists and researchers online.
+        and changing the way you pay online.
       </Text>
       <Space size="large" />
       <Action
